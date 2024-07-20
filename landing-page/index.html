@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Homework</title>
+    <meta name="keywords" content="python java javascript">
+    <meta name="description" content="Landing Page Homework">
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/global.css">
+    
+    
+    <!--TABLET-->
+    <link rel="stylesheet" media="(max-width: 868px)" href="css/tablet.css">
+    <!--MOBİLE-->
+    <link rel="stylesheet" media="(max-width: 700px)" href="css/mobile.css">
+    
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap" rel="stylesheet">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Çiğdem Kahya</h1>
+                <ul>
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#courses">Kurslar</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
+    <section id="home">
+        <img src="img/profil.jfif" width="300" height="300" alt="profil">
+        
+        <div class="name">
+            <h2 class="heading-big">Çiğdem Kahya</h2>
+            <p>Bilgisayar Programcılığı |  Öğrenci</p>
+        </div>
+
+        <a class="btn btn-primary" href="#courses">Projelere Git</a>
+    </section>
+
+    <h3 class="text-center heading-medium">Projeler</h3>
+    <section id="training" class="bg-dark-blue">
+        
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore aliquid praesentium numquam distinctio nam fuga!</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore aliquid praesentium numquam distinctio nam fuga!</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore aliquid praesentium numquam distinctio nam fuga!</p>
+            </article>
+        </div>
+    </section>
+
+    <br>
+
+    <h3 class="text-center heading-medium">Kurslar</h3>
+        <section id="courses">
+
+           
+            <div class="container">
+                <div class="courses">
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="img/u.png" alt="">
+                            <span> %90 İndirim</span>
+                        </div>
+            
+                        <div class="course-info">
+                            <div class="title">Lorem, ipsum dolor.</div>
+                            <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero voluptates similique repudiandae voluptatem molestias quibusdam minima a quo quasi quae!</div>
+                            <div class="instructor">Lorem, ipsum dolor.</div>
+                            <div class="rating">4.5 | 500 Oylama</div>
+                        </div>
+                    </div>
+            
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="img/btk.png" alt="">
+                            <span> %90 İndirim</span>
+                        </div>
+            
+                        <div class="course-info">
+                            <div class="title">Lorem, ipsum dolor.</div>
+                            <div class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, repellendus.</div>
+                            <div class="instructor">Lorem, ipsum dolor.</div>
+                            <div class="rating">4.5 | 500 Oylama</div>
+                        </div>
+                    </div>
+            
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="img/patika.dev.png" alt="">
+                            <span> %90 İndirim</span>
+                        </div>
+            
+                        <div class="course-info">
+                            <div class="title">Lorem, ipsum dolor.</div>
+                            <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore ducimus beatae fugiat vel quo exercitationem tempora quod nihil quos illo voluptas, quisquam modi ex asperiores.</div>
+                            <div class="instructor">Lorem, ipsum dolor.</div>
+                            <div class="rating">4.5 | 500 Oylama</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <footer id="contact" class="bg-dark-blue">
+
+            <div class="contact-form">
+                <form>
+                    <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+
+                    <div class="form-group">
+                        <label for="name">İsim</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="isim">
+                        
+                        <label for="email">E-mail</label>
+                        <input type="text" class="form-control" name="email" id="email" placeholder="email">
+
+                        <label for="message">Mesaj</label>
+                        <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız..."></textarea>
+
+                        <button type="submit" class="btn btn-block">
+                            Gönder
+                        </button>
+                    </div>
+
+                </form>
+
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+
+            </div>
+
+        </footer>
+</body>
+</html>
